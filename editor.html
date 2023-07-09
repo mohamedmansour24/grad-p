@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content type="width=device-width, initial-scale=1.0">
+		<title>egypt riches</title>
+
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/editor.css">
+		<!-- box icons -->
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<a href="index.html" class="logo"><span>ثروات </span>مصر</a>
+				<nav>
+					<a href="index.html">الصفحة الرئيسية</a>
+					<a href="#posts">المقالات</a>
+					<!-- <a href="editor.html">محرر المقالات</a> -->
+					<div class="join-us">
+						<a href="info.html" class="button">من نحن</a>
+					</div>
+				</nav>
+				<button class="hamburger">
+					<div class="bar"></div>
+				</button>
+		
+			</div>
+		</header>
+		<nav class="mobile-nav">
+			<a href="index.html">الصفحة الئيسية</a>
+			<!-- <a href="#posts">المقالات</a> -->
+			<!-- <a href="editor.html">محرر المقالات</a> -->
+			<a href="info.html">من نحن</a>
+		</nav>
+        
+		<main>
+            <section class="post-header">
+                <div class="header-content post-container">
+                    <a href="index.html" class="button">الرجوع للصفحة الرئيسية</a>
+                </div>
+            </section>
+            <section class="posts-content-1 posts-container-1">
+                <div class="article-img">
+                    <input type="file" accept="image/*" id="img-upload" hidden>
+                    <label for="img-upload" class="upload-img"><img src="images/upload.png" alt="upload banner"></label>
+                </div>
+                <!-- <h1 class="header-title">test</h1> -->
+                <div class="blog">
+                    <textarea type="text" class="title" placeholder="عنوان المقاله..." aria-controls=""></textarea>
+                    <textarea type="text" class="article" placeholder="المقاله..."></textarea>
+                </div>
+                <div class="blog-options">
+                    <button class="btn publish-btn button">publish now</button>
+                    <input type="file" accept="image/*" id="img-upload" hidden>
+                    <label for="img-upload" class="btn dark upload-btn button">upload image</label>
+                </div>
+            </section>
+		</main>
+        
+		<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+		<script src="js/editor.js"></script>
+	</body>
+</html>
+

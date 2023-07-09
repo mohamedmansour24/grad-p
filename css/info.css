@@ -1,0 +1,50 @@
+:root {
+  --first-color: #00070D;
+  --second-color: #3A5936;
+  --third-color: #092601;
+  --forth-color: #1B4001;
+  --fifth-color: #688C1B;
+  --white: #fff;
+  --grey: #ffffff1f;
+}
+
+.about {
+  display: block;
+  margin: 0.5rem 2rem !important;
+}
+
+.about-h {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+
+.about-p {
+  font-size: 2.5rem;
+  color: var(--first-color);
+  margin-bottom: 1rem;
+  margin-bottom: 10px;
+}
+
+.about1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.about2 {
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-left: 4rem;
+  border: 5px solid var(--fifth-color);
+}/*# sourceMappingURL=info.css.map */
